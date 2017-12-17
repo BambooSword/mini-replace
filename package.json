@@ -1,0 +1,13 @@
+{
+  "name": "mini-swap",
+  "version": "1.0.0",
+  "description": "A tool that use to swap content and file name ect.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BambooSword",
+  "license": "ISC"
+}
+111
