@@ -1,5 +1,5 @@
 {
-  "name": "mini-swap",
+  "name": "mini-replace",
   "version": "1.0.0",
   "description": "A tool that use to swap content and file name ect.",
   "main": "index.js",
@@ -10,4 +10,3 @@
   "author": "BambooSword",
   "license": "ISC"
 }
-111

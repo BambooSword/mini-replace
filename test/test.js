@@ -1,4 +1,4 @@
-const miniSwap = require('../index.js');
+const miniReplace = require('../index.js');
 console.log('hello world');
-console.log(miniSwap);
-miniSwap(process.cwd(), /hello/, 'ddd');
+console.log(miniReplace);
+miniReplace(process.cwd(), /hello/, 'ddd');
