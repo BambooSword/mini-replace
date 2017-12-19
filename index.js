@@ -1,7 +1,8 @@
 const fs = require('fs');
 
 /**
- *
+ * 根据不同的正则实现不同的查询替换，如精确替换，模糊替换等，可有效进行文档内容的替换功能
+ * 
  * @param {String} 匹配路径
  *
  * @param {String | RegExp | Array} 匹配的正则表达式
@@ -10,9 +11,6 @@ const fs = require('fs');
  *
  * @returns {void}
  */
-
-// reg = /('|")(\S+)(\1)/g 匹配括号里面的字符
-// reg = /('|")((\S*(?=bizcharts-plugin-slider@2.0.0))(\S+))(\1)/ //实现模糊查询的正则
 
 function miniReplace(path, reg, replaceWord) {
   // 进行参数验证
