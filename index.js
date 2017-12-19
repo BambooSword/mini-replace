@@ -55,15 +55,10 @@ function miniReplace(path, reg, replaceWord) {
       newdata = typeof replaceWord === 'string' ? data.replace(reg,
         replaceWord) : data.replace(reg, replaceWord[0]);
     } else {
-      if (reg[0] !== true) {
         reg.map((eachItem, index) => {
           newdata = newdata.replace(eachItem, replaceWord[index]);
           return false;
         });
-      } else {
-        reg.shift();
-      }
-
     }
     fs.writeFileSync(item, newdata);
   });
