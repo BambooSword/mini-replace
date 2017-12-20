@@ -8,5 +8,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "BambooSword",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Power-Deng/mini-replace.git"
+  },
+  "keywords": [
+    "replace"
+  ],
+  "bugs": {
+    "url": "https://github.com/Power-Deng/mini-replace/issues"
+  },
+  "homepage": "https://github.com/Power-Deng/mini-replace#readme"
 }
